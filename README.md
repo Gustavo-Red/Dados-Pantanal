@@ -16,6 +16,27 @@ O objetivo do notebook `pantanal.ipynb` é:
 
 ---
 
+## 📊 Resultados
+
+### 🌡️ Temperatura
+![Temperatura](Temperatura.png)
+
+### 🌊 Nível do rio
+![Nível do rio](Nivel_rio.png)
+
+### 🌱 NDVI
+![NDVI](NDVI.png)
+
+---
+
+## 📈 Principais Insights
+
+- A temperatura apresenta crescimento até a metade do período analisado, seguido de queda gradual
+- O nível do rio acompanha parcialmente a variação climática
+- O NDVI indica uma tendência de aumento da vegetação até determinado ponto, seguido de redução
+
+---
+
 ## Estrutura do Projeto
 
 - `dados_pantanal.csv` — arquivo com os dados utilizados na análise
