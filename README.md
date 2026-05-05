@@ -1,4 +1,4 @@
-# Dados-Pantanal
+# Monitoramento-Ambiental-Pantanal
 Projeto de análise de dados - Desenvolvimento de Plataforma de Dados Ambientais
 
 # 📊 Análise de Dados Ambientais do Pantanal
@@ -31,9 +31,9 @@ O objetivo do notebook `pantanal.ipynb` é:
 
 ## 📈 Principais Insights
 
-- A temperatura apresenta crescimento até a metade do período analisado, seguido de queda gradual
-- O nível do rio acompanha parcialmente a variação climática
-- O NDVI indica uma tendência de aumento da vegetação até determinado ponto, seguido de redução
+- **Padrão Térmico Definido:** A temperatura apresenta uma curva clara de aquecimento na primeira metade do período, atingindo o seu ápice de 36.0°C no dia 5 de janeiro, seguido por um resfriamento gradual até o final da série (31.8°C).
+- **Resposta Hidrológica (Defasagem):** O nível do rio acompanha a tendência climática com uma defasagem de 24 horas: enquanto a temperatura máxima ocorre no dia 5, o nível do rio atinge seu ápice de 4.8m no dia 6 de janeiro, decaindo suavemente nos dias seguintes.
+- **Vigor Vegetativo Estável (NDVI):** O índice de vegetação mantém-se sempre em patamares excelentes para cobertura densa (acima de 0.65), alcançando o seu pico de vigor (0.72) no dia 6 de janeiro, em perfeita sincronia com o nível máximo do rio.
 
 ---
 
