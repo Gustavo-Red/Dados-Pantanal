@@ -1,18 +1,30 @@
-# Monitoramento-Ambiental-Pantanal
 Projeto de análise de dados - Desenvolvimento de Plataforma de Dados Ambientais
 
 # 📊 Análise de Dados Ambientais do Pantanal
 
+## 📌 Contexto
+
+Este projeto foi desenvolvido como parte de um teste prático para a vaga de bolsista em Desenvolvimento de Plataforma de Dados Ambientais, com o objetivo de avaliar habilidades em manipulação, processamento e visualização de dados.
+
+A análise utiliza um conjunto de dados ambientais do Pantanal contendo informações de temperatura, nível do rio e índice de vegetação (NDVI) ao longo de uma série temporal.
+
+---
+
+## 🎯 Objetivo
+
+Realizar uma análise exploratória dos dados, incluindo:
+
+* leitura e organização da base de dados;
+* tratamento de valores ausentes;
+* cálculo de estatísticas básicas;
+* visualização temporal das variáveis;
+* extração de insights a partir dos dados.
+
+---
+
 ## Descrição
 
-Este projeto realiza uma análise exploratória de um pequeno conjunto de dados ambientais do Pantanal, contendo informações de temperatura, nível do rio e NDVI ao longo de uma série temporal.
-
-O objetivo do notebook `pantanal.ipynb` é:
-- ler os dados fornecidos;
-- tratar valores ausentes;
-- organizar a base para análise;
-- calcular estatísticas básicas;
-- gerar visualizações temporais das variáveis.
+Análise exploratória de dados ambientais do Pantanal com foco em tratamento, visualização e interpretação de variáveis ao longo do tempo.
 
 ---
 
