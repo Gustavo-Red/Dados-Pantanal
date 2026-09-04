@@ -1,8 +1,8 @@
 Projeto de análise de dados - Desenvolvimento de Plataforma de Dados Ambientais
 
-# 📊 Análise de Dados Ambientais do Pantanal
+# Análise de Dados Ambientais do Pantanal
 
-## 📌 Contexto
+## Contexto
 
 Este projeto foi desenvolvido como parte de um teste prático para a vaga de bolsista em Desenvolvimento de Plataforma de Dados Ambientais, com o objetivo de avaliar habilidades em manipulação, processamento e visualização de dados.
 
@@ -10,7 +10,7 @@ A análise utiliza um conjunto de dados ambientais do Pantanal contendo informa�
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Realizar uma análise exploratória dos dados, incluindo:
 
@@ -28,20 +28,20 @@ Análise exploratória de dados ambientais do Pantanal com foco em tratamento, v
 
 ---
 
-## 📊 Resultados
+## Resultados
 
-### 🌡️ Temperatura
+### Temperatura
 ![Temperatura](Temperatura.png)
 
-### 🌊 Nível do rio
+### Nível do rio
 ![Nível do rio](Nivel_rio.png)
 
-### 🌱 NDVI
+### NDVI
 ![NDVI](NDVI.png)
 
 ---
 
-## 📈 Principais Insights
+## Principais Insights
 
 - **Padrão Térmico Definido:** A temperatura apresenta uma curva clara de aquecimento na primeira metade do período, atingindo o seu ápice de 36.0°C no dia 5 de janeiro, seguido por um resfriamento gradual até o final da série (31.8°C).
 - **Resposta Hidrológica (Defasagem):** O nível do rio acompanha a tendência climática com uma defasagem de 24 horas: enquanto a temperatura máxima ocorre no dia 5, o nível do rio atinge seu ápice de 4.8m no dia 6 de janeiro, decaindo suavemente nos dias seguintes.
