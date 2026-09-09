@@ -1,5 +1,3 @@
-Projeto de análise de dados - Desenvolvimento de Plataforma de Dados Ambientais
-
 # Análise de Dados Ambientais do Pantanal
 
 ## Contexto
@@ -104,24 +102,47 @@ A interpolação linear foi escolhida por se tratar de uma série temporal diár
 
 ---
 
-## Como Executar (No VSCode)
+## Como Executar (no VSCode)
 
-1. Instale as dependências:
-
-```bash
-pip install pandas plotly
-
-```
-2. Abra o notebook:
+### 1. Clone o repositório
 
 ```bash
-jupyter notebook pantanal.ipynb
-
+git clone https://github.com/Gustavo-Red/<nome-do-repositorio>.git
+cd <nome-do-repositorio>
 ```
 
-3. Execute as células em ordem ou utilize "Run All"
+### 2. Abra a pasta no VSCode
 
+```bash
+code .
+```
 
+### 3. (Opcional, mas recomendado) Crie um ambiente virtual
 
+No terminal integrado do VSCode (**Terminal > New Terminal**):
 
+```bash
+python3 -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+```
 
+### 4. Instale as dependências
+
+```bash
+pip install pandas plotly notebook ipykernel
+```
+
+### 5. Abra o notebook `pantanal.ipynb`
+
+No VSCode, clique no arquivo `pantanal.ipynb` no Explorer para abri-lo — o VSCode já renderiza notebooks Jupyter nativamente, sem precisar rodar `jupyter notebook` pelo terminal.
+
+### 6. Selecione o kernel
+
+No canto superior direito do notebook, clique em **Select Kernel** e escolha o ambiente virtual criado (`venv`) ou o interpretador Python instalado.
+
+### 7. Execute a análise
+
+Clique em **Run All** na barra superior do notebook (ou execute as células uma a uma, em ordem, de cima para baixo).
+
+> **Observação:** o arquivo `dados_pantanal.csv` deve estar na mesma pasta do notebook para que a leitura dos dados funcione corretamente.
