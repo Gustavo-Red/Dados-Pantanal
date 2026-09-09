@@ -104,7 +104,7 @@ A interpolação linear foi escolhida por se tratar de uma série temporal diár
 
 ---
 
-## Como Executar
+## Como Executar (No VSCode)
 
 1. Instale as dependências:
 
